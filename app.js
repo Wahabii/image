@@ -186,7 +186,7 @@ app.post('/upload',upload.single('myimage') , (req,res)=> {
 
 
 
-const port=8000;
+const port=4000;
 
 app.listen(port, () => console.log(`server connected with ${port} `));
 
